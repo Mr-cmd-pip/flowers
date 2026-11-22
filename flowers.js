@@ -1,5 +1,3 @@
-import { Analytics } from "@vercel/analytics/next"
-
 const Q = new URLSearchParams(location.search);
 const MESSAGE = Q.get("msg") || "for you ♥";
 const CREDIT = Q.get("credit") ?? "@_noobachu on tiktok!";
